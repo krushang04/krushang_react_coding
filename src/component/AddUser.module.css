@@ -1,0 +1,53 @@
+.heading {
+  margin-left: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.heading button {
+  width: 100px;
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 75%;
+  justify-content: flex-end;
+  right: 0;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+form {
+  width: 70%;
+  height: auto;
+  border: 1px solid black;
+  margin: 1rem;
+}
+
+.field {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.field input {
+  width: 80%;
+  margin-right: 2rem;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.action {
+  border-top: 1px solid gray;
+  margin: 1rem;
+  display: flex;
+  flex-direction: flex-end;
+}
+
+.action button {
+  margin: 1rem;
+  flex-direction: flex-end;
+}
